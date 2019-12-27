@@ -1,16 +1,13 @@
-# cj-dic
-The SPA of CangJie Dictionary built on top of ``lit-element`` and _typescript_ (or _pure JS_ if you will) etc. API for this applicaiton may be found in _datum_ folder (Node/Express).
+# Ukrainian City Lookup
+This is a small SPA featuring autocomplete/live-search across a city list, which is built on top of ``lit-element`` and _typescript_.
 
+![Ukrainian City Lookup](https://github.com/movaclub/lit-live-search/blob/master/autocomp_screenshot.png)
 
- 
 ## Installation notes
 
-Everything's about __Parcel__ bundler usage for creating a dev environment other than that with ``polymer-cli`` or any other _bundled_ "__solution__". Your starting point may be this <a href="https://www.twilio.com/blog/2018/05/building-a-chat-with-twilio-lit.html-parcel-and-typescript.html">blog</a>.
+Just run ``npm i`` or ``yarn install``. In development mode open your
+browser with _http://localhost:1234_.
 
- __NB__: _run ``npm i`` for the API separately_.
+## What may of interest
 
-## Few bits on dev environment
-
-It seems like __Parcel__ itself provides __no__ _build-and-watch_ mode like f.i. ``nodemon node .`` and the like, so an excellent hint may be borrowed from <a href="https://github.com/parcel-bundler/parcel/issues/1131">here</a>. In case of this small application check ``dev`` entry in the package.json (an extra JS script).
-
-And, yes, use `yarn`, it's way faster `npm`!
+Nothing special is in here, but quick-and-dirty environment setup reinforced with ``rxjs``; this should be imho the default design pattern.
