@@ -1,0 +1,34 @@
+{
+  "name": "lit-elem-live",
+  "version": "1.0.0",
+  "description": "auto-complete/live-search lit-element component on top of rxjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html",
+    "dev": "node lbundler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "auto-complete",
+    "live-search",
+    "lit-element",
+    "rxjs",
+    "typescript"
+  ],
+  "author": "OM",
+  "license": "ISC",
+  "dependencies": {
+    "@types/events": "^3.0.0",
+    "lit-element": "^2.2.1",
+    "rxjs": "^6.5.3",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.4"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
+}

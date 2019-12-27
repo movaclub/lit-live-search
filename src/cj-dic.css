@@ -1,0 +1,28 @@
+
+.cj-site{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    width: 69%;
+    margin: auto;
+}
+
+.cj-content{
+    margin: 22px;
+    flex:1;
+    flex-basis: 55%;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    padding: 9px;
+    font-size: .88621em;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
